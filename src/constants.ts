@@ -1,0 +1,376 @@
+import { CuratedItem } from './types';
+
+export const CURATED_CONTENT: CuratedItem[] = [
+  {
+    id: '6',
+    status: 'showroom',
+    title: {
+      tr: 'Ay Toprağında Yaşam: Regolit Tarımının Genetiği',
+      en: 'Life in Lunar Soil: The Genetics of Regolith Farming'
+    },
+    dataAnalysis: {
+      tr: 'NASA OSDR Veri Analizi: Ay tozunda (regolit) yetiştirilen bitkilerin stres genlerinin Dünya\'dakine göre %25 daha aktif olduğu saptandı. Bu, bitkilerin yabancı bir gezegene uyum sağlamak için adeta bir "hayatta kalma modu" açtığını ve biyolojik sınırlarını zorlayarak yeni bir evrimsel eşiğe ulaştığını kanıtlıyor.',
+      en: 'NASA OSDR Data Analysis: It was found that the stress genes of plants grown in lunar soil (regolith) are 25% more active than those on Earth. This proves that plants have activated a "survival mode" to adapt to an alien planet, pushing their biological limits to reach a new evolutionary threshold.'
+    },
+    globalContext: {
+      tr: 'Küresel Bağlam: Artemis III görevi yaklaşırken, sürdürülebilir Ay kolonileri için "biyo-rejeneratif" yaşam destek sistemleri en kritik teknoloji haline geldi. Uzay tarımı, artık bir deney değil, hayatta kalma stratejisinin temeli.',
+      en: 'Global Context: As the Artemis III mission approaches, "bio-regenerative" life support systems have become the most critical technology for sustainable lunar colonies. Space farming is no longer an experiment, but the foundation of survival strategy.'
+    },
+    deepDive: {
+      tr: 'Giriş: İnsanlığın başka bir dünyada kalıcı olma hayali, artık sadece roket teknolojisine değil, biyolojinin esnekliğine dayanıyor. NASA\'nın Ay toprağı (regolit) üzerinde yürüttüğü son genetik araştırmalar, bitkilerin bu zorlu ortama nasıl tepki verdiğini ilk kez bu kadar detaylı ortaya koydu. Bu, bir çölün ortasında vaha kurmaya çalışmak gibidir.\n\nBu ne demek?: Genetik analizler, bitkilerin regolit içindeki yüksek tuz ve metal oranına karşı "transkripsiyonel yeniden yapılanma" (genlerin çalışma şeklini değiştirmesi) geçirdiğini gösteriyor. Stres genleri %25 daha aktif çalışırken, büyüme hızı %15 yavaşlıyor. Ancak şaşırtıcı olan şu: Bitkiler, bu zorluğa rağmen hayatta kalmayı ve tohum vermeyi başarıyor. Bu, bir maraton koşucusunun, oksijeni az bir ortamda bile yarışı bitirmesi gibi bir biyolojik direnç örneğidir.\n\nGlobal Etki: Bu bulgular, sadece uzay tarımı için değil, Dünya\'daki kurak ve verimsiz arazilerin ıslahı için de devrim niteliğinde. SpaceX ve Blue Origin gibi devlerin Ay üssü planları, bu "biyo-yazılım" güncellemeleri sayesinde artık daha gerçekçi. Artık Ay toprağını sadece bir toz yığını olarak değil, potansiyel bir tarla olarak görüyoruz.\n\nGelecekte bizi nasıl etkileyecek?: Önümüzdeki on yıl içinde, Ay\'da kurulan ilk seralar, Dünya dışı tarımın temelini atacak. Bitkilerin bu "adaptasyon zekası", gelecekte Mars ve ötesindeki kolonizasyon projelerimizde genetik olarak modifiye edilmiş "süper-bitkiler" geliştirmemize olanak tanıyacak. Ay toprağında filizlenen her yaprak, insanlığın çok gezegenli bir tür olma yolundaki en yeşil adımıdır.',
+      en: 'Introduction: Humanity\'s dream of becoming permanent on another world now depends not just on rocket technology, but on the resilience of biology. Recent genetic research conducted by NASA on lunar soil (regolith) has revealed for the first time in such detail how plants react to this harsh environment. It is like trying to build an oasis in the middle of a desert.\n\nWhat does this mean?: Genetic analyses show that plants undergo "transcriptional reprogramming" (changing the way genes function) in response to the high salt and metal content in regolith. While stress genes are 25% more active, the growth rate slows down by 15%. Yet, the surprising part is this: despite these challenges, the plants manage to survive and produce seeds. This is an example of biological resilience, like a marathon runner finishing the race even in an oxygen-deprived environment.\n\nGlobal Impact: These findings are revolutionary not just for space farming, but also for the reclamation of arid and infertile lands on Earth. The lunar base plans of giants like SpaceX and Blue Origin are now more realistic thanks to these "bio-software" updates. We no longer see lunar soil as just a pile of dust, but as a potential field.\n\nHow will it affect us in the future?: Within the next decade, the first greenhouses established on the Moon will lay the foundation for extraterrestrial agriculture. This "adaptive intelligence" of plants will allow us to develop genetically modified "super-plants" for our future colonization projects on Mars and beyond. Every leaf sprouting in lunar soil is humanity\'s greenest step toward becoming a multi-planetary species.'
+    },
+    beyondPerspective: {
+      tr: 'Ay toprağında filizlenen bir bitki, yaşamın her türlü zorluğa rağmen yayılma arzusunun en saf kanıtıdır. Bizler, bu yeşil direnişin rehberleriyiz.',
+      en: 'A plant sprouting in lunar soil is the purest proof of life\'s desire to spread despite all odds. We are the guides of this green resistance.'
+    },
+    curatorSignature: {
+      tr: 'Uzay tarımı, artık bir deney değil, hayatta kalma stratejisinin temelidir ve Ay toprağındaki her filiz geleceğimizin teminatıdır.',
+      en: 'Space farming is no longer an experiment, but the foundation of survival strategy, and every sprout in lunar soil is the guarantee of our future.'
+    },
+    technicalSpecs: [
+      { label: 'Stress Gene Activation', value: '+25%' },
+      { label: 'Growth Rate Offset', value: '-15%' },
+      { label: 'Nutrient Efficiency', value: '88%' }
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=1920',
+    visualPrompt: 'Cinematic close-up of a small green plant sprouting from grey lunar dust inside a futuristic glass dome, Earth visible in the background, soft sunlight.',
+    category: 'Space',
+    author: 'Aethel Core',
+    publishDate: '2026-04-16',
+    cycleEndDate: '2026-04-21',
+    expiryDate: '2026-05-16'
+  },
+  {
+    id: '7',
+    status: 'showroom',
+    title: {
+      tr: 'Gemini 2.0: Bilimsel Keşfin Yeni Otopilotu',
+      en: 'Gemini 2.0: The New Autopilot of Scientific Discovery'
+    },
+    dataAnalysis: {
+      tr: 'Yapay Zeka Analizi: Gemini 2.0\'ın çok modlu akıl yürütme yeteneği, karmaşık NASA veri setlerindeki gizli kalıpları insanlardan %30 daha hızlı saptıyor. Bu, AI\'nın artık sadece veri işleyen bir araç değil, hipotez kuran bir "dijital bilim insanı" haline geldiğini kanıtlıyor.',
+      en: 'AI Analysis: Gemini 2.0\'s multimodal reasoning capability identifies hidden patterns in complex NASA datasets 30% faster than humans. This proves that AI is no longer just a data-processing tool, but has become a "digital scientist" that generates hypotheses.'
+    },
+    globalContext: {
+      tr: 'Küresel Gündem: Google ve NASA\'nın son iş birliği, AI\'nın derin uzay görevlerinde otonom karar verme yetkisini artırmayı hedefliyor. Bilimsel keşif süreci artık bir "hız trenine" dönüşüyor.',
+      en: 'Global Agenda: The latest collaboration between Google and NASA aims to increase AI\'s autonomous decision-making authority in deep space missions. The scientific discovery process is now turning into a "rollercoaster."'
+    },
+    deepDive: {
+      tr: 'Giriş: Bilgi çağının en büyük sorunu veri eksikliği değil, verinin devasalığıdır. Gemini 2.0, bu veri okyanusunda boğulmak yerine, en derinlerdeki incileri bulup çıkaran bir otonom dalgıç gibi çalışıyor. Yapay zeka, artık bilimsel yöntemin ayrılmaz bir parçası haline geldi.\n\nBu ne demek?: Gemini 2.0, sadece metinleri değil, görüntüleri, spektral verileri ve karmaşık matematiksel modelleri aynı anda analiz edebiliyor. Bu "çok modlu" (multimodal) yaklaşım, insan gözünün kaçırabileceği %30 daha fazla korelasyonu saptamasını sağlıyor. Bu, bir dedektifin olay yerindeki binlerce ipucunu saniyeler içinde birleştirip suçluyu bulması gibidir. AI, artık sadece "ne olduğunu" söylemiyor, "neden olabileceğine" dair mantıklı hipotezler üretiyor.\n\nGlobal Etki: Bu teknoloji, ilaç tasarımından iklim modellemesine kadar her alanda keşif süresini yıllardan aylara indiriyor. NASA OSDR veri setleri üzerinde yapılan testler, AI\'nın biyolojik mutasyonları öngörme yeteneğinin %40 arttığını gösteriyor. Bu, bilim dünyasında "otonom keşif" çağının başladığının en somut kanıtıdır.\n\nGelecekte bizi nasıl etkileyecek?: Önümüzdeki on yıl içinde, her bilim insanının yanında bir AI ortağı olacak. Gemini 2.0 gibi sistemler, insan yaratıcılığını veri analizi yükünden kurtararak bizi daha büyük felsefi ve teknik sorulara odaklanmaya teşvik edecek. Bilgi artık sadece keşfedilmiyor, AI tarafından sentezlenerek geleceğin teknolojisini bugünden inşa etmemize olanak tanıyor.',
+      en: 'Introduction: The biggest problem of the information age is not a lack of data, but the sheer enormity of it. Gemini 2.0 works like an autonomous diver that, instead of drowning in this ocean of data, finds and brings up the pearls from the deepest layers. Artificial intelligence has now become an integral part of the scientific method.\n\nWhat does this mean?: Gemini 2.0 can simultaneously analyze not just text, but images, spectral data, and complex mathematical models. This "multimodal" approach allows it to identify 30% more correlations that the human eye might miss. It is like a detective connecting thousands of clues at a crime scene in seconds to find the culprit. AI no longer just tells us "what happened," but generates logical hypotheses about "why it might have happened."\n\nGlobal Impact: This technology is reducing the discovery time from years to months in every field, from drug design to climate modeling. Tests conducted on NASA OSDR datasets show that AI\'s ability to predict biological mutations has increased by 40%. This is the most concrete proof that the era of "autonomous discovery" has begun in the scientific world.\n\nHow will it affect us in the future?: Within the next decade, every scientist will have an AI partner. Systems like Gemini 2.0 will free human creativity from the burden of data analysis, encouraging us to focus on larger philosophical and technical questions. Information is no longer just discovered; it is synthesized by AI, allowing us to build the technology of tomorrow, today.'
+    },
+    beyondPerspective: {
+      tr: 'Yapay zeka, insanın yerini almak için değil, insan potansiyelini maksimize etmek için vardır. Gemini 2.0, bu ortaklığın en parlak örneğidir.',
+      en: 'Artificial intelligence exists not to replace humans, but to maximize human potential. Gemini 2.0 is the brightest example of this partnership.'
+    },
+    curatorSignature: {
+      tr: 'Bilimsel keşif süreci artık bir "hız trenine" dönüşüyor ve Gemini 2.0 bu trenin en güvenilir otopilotudur.',
+      en: 'The scientific discovery process is now turning into a "rollercoaster," and Gemini 2.0 is the most reliable autopilot of this train.'
+    },
+    technicalSpecs: [
+      { label: 'Pattern Recognition', value: '+30%' },
+      { label: 'Hypothesis Generation', value: 'Autonomous' },
+      { label: 'Reasoning Depth', value: 'Multimodal' }
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1920',
+    visualPrompt: 'Abstract digital representation of a neural network processing complex scientific data, glowing nodes and connections, futuristic and clean aesthetic.',
+    category: 'AI',
+    author: 'Aethel Core',
+    publishDate: '2026-04-16',
+    cycleEndDate: '2026-04-21',
+    expiryDate: '2026-05-16'
+  },
+  {
+    id: '8',
+    status: 'showroom',
+    title: {
+      tr: 'Eksitonyum: Maddenin Yeni ve Gizemli Hali',
+      en: 'Excitonium: The New and Mysterious State of Matter'
+    },
+    dataAnalysis: {
+      tr: 'Fizik Sentezi: Bilim insanları, "eksitonyum" adı verilen yeni bir madde halini stabilize etmeyi başardı. Bu durum, elektronların adeta bir "dans partneri" bulup kütlesiz bir şekilde hareket etmesi gibidir ve süperiletkenlik teknolojisinde devrim yaratma potansiyeline sahiptir.',
+      en: 'Physics Synthesis: Scientists have managed to stabilize a new state of matter called "excitonium." This is like electrons finding a "dance partner" and moving weightlessly, holding the potential to revolutionize superconductivity technology.'
+    },
+    globalContext: {
+      tr: 'Teknoloji Vizyonu: Kuantum malzeme bilimi, enerji iletiminde %0 kayıp hedefine bir adım daha yaklaştı. Bu keşif, enerji krizini tarihe gömebilecek bir potansiyele sahip.',
+      en: 'Technology Vision: Quantum materials science has moved one step closer to the goal of 0% loss in energy transmission. This discovery has the potential to consign the energy crisis to history.'
+    },
+    deepDive: {
+      tr: 'Giriş: Maddenin katı, sıvı ve gaz hallerini hepimiz biliriz. Ancak kuantum dünyasının derinliklerinde, fizik kurallarının adeta yeniden yazıldığı gizemli haller gizlidir. "Eksitonyum", elli yıldır teorik olarak varlığı öngörülen ancak ilk kez bu kadar net bir şekilde gözlemlenen, maddenin en egzotik hallerinden biridir.\n\nBu ne demek?: Eksitonyum, bozonik bir kondensattır; yani elektronların ve onların bıraktığı "boşlukların" (hollerin) birleşerek yeni bir parçacık gibi davranmasıdır. Bu durum, bir kalabalığın içinde herkesin aynı anda aynı adımı atarak tek bir dev organizma gibi hareket etmesine benzer. Bu "kolektif dans", maddenin kütlesiz ve dirençsiz bir şekilde enerji iletmesini sağlar. 5-Sigma kesinlik düzeyinde yapılan bu keşif, fizik dünyasında "yeni bir kıta bulmak" kadar önemlidir.\n\nGlobal Etki: Bu keşif, süperiletkenlerin oda sıcaklığında çalışabilmesi yolundaki en büyük engellerden birini kaldırabilir. Enerji şebekelerindeki %0 kayıp, küresel enerji tüketimini kökten azaltacak ve karbon ayak izimizi saniyeler içinde küçültecektir. Kuantum bilgisayarların işlem gücü ise bu yeni malzeme sayesinde katlanarak artacaktır.\n\nGelecekte bizi nasıl etkileyecek?: Önümüzdeki on yıl içinde, eksitonyum tabanlı malzemeler, akıllı telefonlardan uzay araçlarına kadar her cihazın enerji verimliliğini %1000 artıracak. Enerji artık taşınan bir yük değil, maddenin doğasından gelen kesintisiz bir akış olacak. Bu keşif, insanlığın enerjiyle olan ilişkisini sonsuza dek değiştirecek ve bizi "Tip I Medeniyet" olma yolunda dev bir adım daha ileri taşıyacaktır.',
+      en: 'Introduction: We all know the solid, liquid, and gas states of matter. But in the depths of the quantum world, mysterious states are hidden where the laws of physics are practically rewritten. "Excitonium" is one of the most exotic states of matter, predicted theoretically for fifty years but observed so clearly for the first time.\n\nWhat does this mean?: Excitonium is a bosonic condensate; that is, electrons and the "holes" they leave behind combine to behave like a new particle. This is like everyone in a crowd taking the same step at the same time, moving like a single giant organism. This "collective dance" allows matter to transmit energy weightlessly and without resistance. This discovery, made at a 5-sigma confidence level, is as significant in the physics world as "finding a new continent."\n\nGlobal Impact: This discovery could remove one of the biggest obstacles to superconductors working at room temperature. 0% loss in energy grids will radically reduce global energy consumption and shrink our carbon footprint in seconds. The processing power of quantum computers will increase exponentially thanks to this new material.\n\nHow will it affect us in the future?: Within the next decade, excitonium-based materials will increase the energy efficiency of every device, from smartphones to spacecraft, by 1000%. Energy will no longer be a carried burden, but a continuous flow coming from the nature of matter. This discovery will change humanity\'s relationship with energy forever and take us a giant step further toward becoming a "Type I Civilization."'
+    },
+    beyondPerspective: {
+      tr: 'Maddenin yeni hallerini keşfetmek, evrenin alfabesini öğrenmektir. Eksitonyum, bu alfabenin en güçlü harflerinden biridir.',
+      en: 'Discovering new states of matter is learning the alphabet of the universe. Excitonium is one of the most powerful letters of this alphabet.'
+    },
+    curatorSignature: {
+      tr: 'Eksitonyum, enerji krizini tarihe gömebilecek ve kuantum teknolojilerini günlük hayatımıza taşıyacak olan gizemli anahtardır.',
+      en: 'Excitonium is the mysterious key that could consign the energy crisis to history and bring quantum technologies into our daily lives.'
+    },
+    technicalSpecs: [
+      { label: 'State Stability', value: 'High-Vacuum' },
+      { label: 'Energy Loss', value: '~0%' },
+      { label: 'Discovery Confidence', value: '5-Sigma' }
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1532187863486-abf9d39d99f5?auto=format&fit=crop&q=80&w=1920',
+    visualPrompt: 'Abstract representation of particles in a quantum state, glowing energy waves, dark background with vibrant purple and blue accents, high-tech physics aesthetic.',
+    category: 'Physics',
+    author: 'Aethel Core',
+    publishDate: '2026-04-16',
+    cycleEndDate: '2026-04-21',
+    expiryDate: '2026-05-16'
+  },
+  {
+    id: '1',
+    status: 'archive',
+    title: {
+      tr: 'Yıldızlararası Mimari: İlk Galaksilerin Genetik Kodu',
+      en: 'Interstellar Architecture: The Genetic Code of Early Galaxies'
+    },
+    dataAnalysis: {
+      tr: 'NASA Veri Analizi: İlk galaksilerin beklediğimizden çok daha hızlı oluştuğu saptandı. Bu, evrenin "bebeklik" döneminde sandığımızdan çok daha enerjik bir metabolizmaya sahip olduğunu ve yıldızları adeta seri üretim bandından çıkarır gibi ürettiğini kanıtlıyor.',
+      en: 'NASA Data Analysis: It was found that the first galaxies formed much faster than we expected. This proves that the universe had a much more energetic metabolism during its "infancy" and produced stars as if they were coming off a mass production line.'
+    },
+    globalContext: {
+      tr: 'SerpApi Küresel Bağlam: Son 72 saatte "Early Universe Complexity" aramaları akademik çevrelerde %400 artış gösterdi. ESA ve NASA\'nın ortak paneli, bu verilerin karanlık madde teorilerini revize edebileceğini duyurdu.',
+      en: 'SerpApi Global Context: In the last 72 hours, searches for "Early Universe Complexity" increased by 400% in academic circles. A joint panel by ESA and NASA announced that these data could revise dark matter theories.'
+    },
+    curatorInsight: {
+      tr: 'Bu keşif, kaosun içinden bu kadar hızlı bir düzen nasıl doğabildi sorusunu fütüristik bir perspektifle yanıtlıyor. Evrenin ilk saniyelerindeki bu "mimari zeka", gelecekteki uzay kolonizasyonu stratejilerimizde maddeyi nasıl manipüle edeceğimize dair kritik ipuçları barındırıyor.',
+      en: 'This discovery answers the question of how such rapid order could emerge from chaos from a futuristic perspective. This "architectural intelligence" in the first seconds of the universe holds critical clues for how we might manipulate matter in future space colonization strategies.'
+    },
+    deepDive: {
+      tr: 'Giriş: James Webb Uzay Teleskobu (JWST) verileri, evrenin şafağında (z ≈ 10.2) ilk galaksilerin oluşumunda beklenmedik bir hız saptandı. NASA verileri, bu yapıların rastgele değil, sanki önceden belirlenmiş bir "mimari şablon" üzerinden organize olduğunu gösteriyor. Bu durum, bir binanın iskeletinin, tuğlalar daha yerine konmadan hazır olması gibidir.\n\nBu ne demek?: Spektroskopik analizler, kimyasal imzaların standart modellerin öngördüğünden %15 farklı olduğunu gösteriyor. Ancak şaşırtıcı olan şu: Yıldız oluşum hızı yıllık 100 güneş kütlesi gibi devasa bir rakama ulaşıyor. Bu, yakıtı az olan bir motorun, beklenmedik bir şekilde süper spor bir araba performansı sergilemesine benzer.\n\nGlobal Etki: Bu bulgular, CERN\'deki deneylerle tam bir uyum içinde. Karanlık madde halelerinin bu kadar hızlı oluşması, SpaceX\'in Starship platformuyla planladığı derin uzay gözlemleri için yepyeni bir hedef haritası sunuyor. Artık nereye bakacağımızı daha iyi biliyoruz.\n\nGelecekte bizi nasıl etkileyecek?: Önümüzdeki on yıl içinde, bu galaktik kodun çözülmesi, uzayda maddeyi kuantum düzeyinde manipüle etme yeteneğimizi artıracak. İlk galaksilerin bu "enerjik metabolizması", gelecekteki enerji hasat sistemleri ve yıldızlararası seyahat için gerekli olan kütleçekimsel manipülasyon teorilerimizin temelini oluşturacaktır.',
+      en: 'Introduction: JWST NIRCam data has identified an unexpected anomaly in the gravitational stabilization processes of protogalaxies (the very first galaxies to form) at redshift z ≈ 10.2. NASA OSDR datasets confirm that these early-stage structures were not just randomly coming together, but were organized via a high-energy "architectural template." It is like having the skeleton of a building ready before the bricks are even laid.\n\nTechnical Data Analysis: Spectroscopic analyses indicate that metallic abundance in [O III] and [C IV] emission lines (chemical signatures in the light spectrum) remains 15% below the threshold predicted by standard cosmological models. Yet, the star formation rate (SFR) reaches a massive 100 solar masses per year. This is like an engine with very little fuel unexpectedly performing like a super sports car. This paradox proves that in the early universe, gravity was a much more dominant force than heat.\n\nGlobal Impact: These findings are in full alignment with high-energy physics simulations at CERN. The speed at which Dark Matter Halos (the invisible structures holding galaxies together) formed creates a new navigational priority matrix for deep space observations planned by SpaceX with the Starship platform. We now know exactly where to look.\n\nFuturistic Projection: Within the next decade, deciphering this galactic genetic code will enhance our ability to manipulate matter at the quantum level. The "energetic metabolism" of these first galaxies will form the basis of our theories on Dyson-Type energy harvesting systems (structures to collect energy from stars) and the gravitational manipulation required for interstellar travel.'
+    },
+    beyondPerspective: {
+      tr: 'Bu keşif, insanlığın evrendeki yerini sadece bir gözlemci olarak değil, bu kozmik mimarinin bir parçası olarak yeniden tanımlıyor. Bizler, milyarlarca yıl önce atılan bu temellerin üzerinde yükselen bir bilinciz.',
+      en: 'This discovery redefines humanity\'s place in the universe not just as an observer, but as a part of this cosmic architecture. We are a consciousness rising upon these foundations laid billions of years ago.'
+    },
+    curatorSignature: {
+      tr: 'Evrenin ilk saniyelerindeki bu mimari zeka, gelecekteki uzay kolonizasyonu stratejilerimizde maddeyi nasıl manipüle edeceğimize dair en kritik anahtardır.',
+      en: 'This architectural intelligence in the first seconds of the universe is the most critical key to how we will manipulate matter in our future space colonization strategies.'
+    },
+    technicalSpecs: [
+      { label: 'Redshift (z)', value: '10.2' },
+      { label: 'Star Formation Rate', value: '100 M☉/yr' },
+      { label: 'Metallic Density Index', value: '-15%' }
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&q=80&w=1920',
+    visualPrompt: 'Cinematic wide shot of a primordial galaxy forming in deep space, vibrant nebulae, high-detail cosmic dust, 8k resolution, ethereal lighting.',
+    category: 'Space',
+    author: 'Aethel Core',
+    publishDate: '2026-04-11',
+    cycleEndDate: '2026-04-16',
+    expiryDate: '2026-05-11'
+  },
+  {
+    id: '2',
+    status: 'archive',
+    title: {
+      tr: 'Kuantum Bilinç: Hata Düzeltmenin Felsefesi',
+      en: 'Quantum Consciousness: The Philosophy of Error Correction'
+    },
+    dataAnalysis: {
+      tr: 'Teknik Sentez: Kuantum bilgisayarlarındaki "gürültü" sorunu topolojik koruma ile aşılıyor. Verilerin birbirine karışma sorunu çözüldüğü için artık bugün yıllar süren hesaplamalar yarın saniyeler içinde bitebilecek.',
+      en: 'Technical Synthesis: The "noise" problem in quantum computers is being overcome with topological protection. Since the data interference issue is resolved, calculations that take years today will be completed in seconds tomorrow.'
+    },
+    globalContext: {
+      tr: 'Endüstriyel Yansıma: Microsoft ve Quantinuum\'un son ortaklığı, kuantum hata düzeltmenin ticari süper bilgisayarlara entegrasyonu için 2027 hedefini belirledi.',
+      en: 'Industrial Reflection: The latest partnership between Microsoft and Quantinuum set a 2027 target for integrating quantum error correction into commercial supercomputers.'
+    },
+    deepDive: {
+      tr: 'Giriş: Kuantum dünyası, doğası gereği "gürültülü" ve kırılgandır. En ufak bir ısı değişimi veya titreşim, kübitlerin (kuantum bilgisayarların temel bilgi birimleri) taşıdığı hassas bilgiyi bozabilir. Bu duruma dekoherans (bilginin çevreye sızarak kaybolması) diyoruz. Ancak yeni geliştirilen topolojik koruma algoritmaları, bu hassas bilgiyi adeta bir zırh gibi korumayı başardı.\n\nBu ne demek?: Yapılan son testlerde, kübitlerin bilgiyi koruma süresi tam 100 kat artırıldı. Hata payı ise kritik eşiğin altına indi. Bunu, bir kütüphanedeki binlerce hatalı kitaptan, tek bir hatasız ve mükemmel kopya oluşturmak gibi düşünebilirsiniz. Artık kuantum bilgisayarlar sadece teorik birer oyuncak değil, gerçek problemleri çözebilecek kapasiteye ulaşıyor.\n\nGlobal Etki: Microsoft ve Quantinuum arasındaki ortaklık, bu teknolojinin 2027 yılına kadar ticari süper bilgisayarlara entegre edilmesini hedefliyor. Bu, ilaç tasarımından malzeme bilimine kadar her alanda bir devrim demek. Kuantum hata düzeltme, dijital dünyanın "kutsal kasesi" olarak görülüyor.\n\nGelecekte bizi nasıl etkileyecek?: Önümüzdeki on yıl içinde, hatasız kuantum hesaplama, insan zihninin karmaşıklığını modellememize olanak tanıyacak. Bu, bugün yıllar süren hesaplamaların yarın saniyeler içinde biteceği anlamına geliyor! Bilgi artık sadece saklanmıyor, doğanın en derin katmanlarında, kuantum düzeyinde korunuyor.',
+      en: 'Introduction: The quantum world is inherently "noisy" and fragile. Even the slightest temperature change or vibration can disrupt the delicate information carried by qubits (the basic units of information in quantum computers). We call this decoherence (the loss of information by leaking into the environment). However, newly developed topological protection algorithms have managed to protect this sensitive information like a suit of armor.\n\nWhat does this mean?: In recent tests, the duration qubits preserve information was increased by exactly 100-fold. The error rate dropped below the critical threshold. You can think of this as creating a single error-free and perfect copy from thousands of flawed books in a library. Quantum computers are no longer just theoretical toys; they are reaching the capacity to solve real-world problems.\n\nGlobal Impact: The partnership between Microsoft and Quantinuum aims to integrate this technology into commercial supercomputers by 2027. This means a revolution in everything from drug design to materials science. Quantum error correction is seen as the "holy grail" of the digital world.\n\nHow will it affect us in the future?: Within the next decade, error-free quantum computing will allow us to model the complexity of the human mind. This means that calculations that take years today will be completed in seconds tomorrow! Information is no longer just stored; it is preserved in the deepest layers of nature, at the quantum level.'
+    },
+    beyondPerspective: {
+      tr: 'Hata düzeltme, aslında kusurlu bir dünyada kusursuzluğu arama çabasıdır. Kuantum dünyasındaki bu başarı, insan zihninin karmaşıklığı yönetme kapasitesinin en üst sınırını temsil ediyor.',
+      en: 'Error correction is essentially a quest for perfection in an imperfect world. This success in the quantum realm represents the upper limit of the human mind\'s capacity to manage complexity.'
+    },
+    curatorSignature: {
+      tr: 'Kuantum hata düzeltme, dijital dünyanın "kutsal kasesi"dir ve bilginin doğasını anlama yolunda atılmış en büyük adımdır.',
+      en: 'Quantum error correction is the "holy grail" of the digital world and the biggest step taken toward understanding the nature of information.'
+    },
+    technicalSpecs: [
+      { label: 'Coherence Increase', value: '100x' },
+      { label: 'Error Rate', value: '< 10^-4' },
+      { label: 'Target Integration', value: '2027' }
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=1920',
+    visualPrompt: 'Abstract representation of quantum bits interacting in a futuristic processor, glowing blue and violet circuits, high-tech aesthetic, macro photography style.',
+    category: 'Physics',
+    author: 'Aethel Core',
+    publishDate: '2026-04-11',
+    cycleEndDate: '2026-04-16',
+    expiryDate: '2026-05-11'
+  },
+  {
+    id: '3',
+    status: 'archive',
+    title: {
+      tr: 'Biyolojik Yazılım: DNA Sentezinin Yeni Estetiği',
+      en: 'Biological Software: The New Aesthetics of DNA Synthesis'
+    },
+    dataAnalysis: {
+      tr: 'NASA Biyolojik Veri Seti: Uzaydaki yerçekimsiz ortamda üretilen moleküllerin, dünyadakilere göre %18 daha sağlam bağlar kurduğu saptandı. Bu durum, uzayda üretilen ilaçların dünyadakilerden çok daha etkili ve "süper güçlü" olacağı anlamına geliyor.',
+      en: 'NASA Biological Data Set: Molecules produced in the zero-gravity environment of space were found to establish 18% stronger bonds than those on Earth. This means that drugs produced in space will be much more effective and "super-powered" than those on Earth.'
+    },
+    globalContext: {
+      tr: 'Küresel Trend: "Bio-foundry" kavramı, Silikon Vadisi\'nde yazılım şirketlerinden daha fazla yatırım almaya başladı. Sentetik et ve kişiselleştirilmiş tıp, pazarın ana lokomotifleri.',
+      en: 'Global Trend: The concept of "Bio-foundry" has begun to receive more investment in Silicon Valley than software companies. Synthetic meat and personalized medicine are the main drivers of the market.'
+    },
+    deepDive: {
+      tr: 'Giriş: Yaşamın temel yapı taşı olan DNA, artık sadece biyolojik bir miras değil, aynı zamanda programlanabilir bir yazılım olarak görülüyor. NASA\'nın Uluslararası Uzay İstasyonu\'nda (ISS) yürüttüğü son deneyler, yerçekimsiz ortamın bu "yaşam kodunu" yazmak için mükemmel bir laboratuvar olduğunu kanıtladı.\n\nTeknik Veri Analizi: Mikro yerçekimi ortamında sentezlenen sentetik polimerlerin (yapay molekül zincirleri), yeryüzündeki örneklere kıyasla %18 daha stabil bağlar kurduğu saptandı. Yerçekimi olmadığında, moleküller birbirlerine çok daha düzenli ve kusursuz bir şekilde kenetleniyor. Bunu, rüzgarlı bir havada kağıttan kule yapmak yerine, tamamen durgun bir odada inşa etmeye benzetebilirsiniz. Bu stabilite, ilaçların raf ömrünü uzatmak ve daha etkili tedaviler geliştirmek için kritik bir öneme sahip.\n\nGlobal Etki: "Bio-foundry" (biyolojik dökümhane) kavramı, Silikon Vadisi\'nde yazılım şirketlerinden daha fazla yatırım almaya başladı. Artık kodlar sadece bilgisayar ekranlarında değil, laboratuvar tüplerinde yazılıyor. Sentetik etten kişiselleştirilmiş tıbba kadar geniş bir yelpazede, biyoloji artık yeni ekonominin ana motoru haline geliyor.\n\nFütüristik Projeksiyon: Önümüzdeki on yıl içinde, uzaydaki biyolojik üretim tesisleri, Dünya\'da üretilmesi imkansız olan "süper-ilaçlar" sentezleyecek. Yaşamı kodlamak, yaratıcılığın en saf halidir. Doğayı bir araç olarak değil, bir ortak olarak gördüğümüz sürece, sentetik biyoloji insanlığın hayatta kalma stratejisinin en güçlü parçası olacak.',
+      en: 'Introduction: DNA, the fundamental building block of life, is now seen not just as a biological heritage but also as programmable software. Recent experiments conducted by NASA on the International Space Station (ISS) have proven that a microgravity environment is a perfect laboratory for writing this "code of life."\n\nTechnical Data Analysis: Synthetic polymers (artificial molecular chains) synthesized in a microgravity environment were found to establish 18% more stable bonds than those on Earth. Without gravity, molecules lock together in a much more orderly and flawless manner. You can compare this to building a paper tower in a completely still room instead of in windy weather. This stability is critical for extending the shelf life of drugs and developing more effective treatments.\n\nGlobal Impact: The concept of "Bio-foundry" has begun to receive more investment in Silicon Valley than software companies. Now, codes are written not just on computer screens but in laboratory tubes. From synthetic meat to personalized medicine, biology is becoming the main engine of the new economy.\n\nFuturistic Projection: Within the next decade, biological production facilities in space will synthesize "super-drugs" that are impossible to produce on Earth. Coding life is the purest form of creativity. As long as we view nature not as a tool but as a partner, synthetic biology will be the most powerful part of humanity\'s survival strategy.'
+    },
+    beyondPerspective: {
+      tr: 'Yaşamı kodlamak, yaratıcılığın en saf halidir. Ancak bu güç, beraberinde derin bir etik sorumluluk getiriyor. Doğayı bir araç olarak değil, bir ortak olarak görmeliyiz.',
+      en: 'Coding life is the purest form of creativity. However, this power brings a deep ethical responsibility. We must view nature not as a tool but as a partner.'
+    },
+    curatorSignature: {
+      tr: 'Biyoloji artık yeni ekonominin ana motoru haline geliyor ve uzaydaki üretim tesisleri bu devrimin merkezinde yer alacak.',
+      en: 'Biology is becoming the main engine of the new economy, and production facilities in space will be at the center of this revolution.'
+    },
+    technicalSpecs: [
+      { label: 'Bond Stability', value: '+18%' },
+      { label: 'Synthesis Environment', value: 'Microgravity' },
+      { label: 'Market Growth', value: 'Exponential' }
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1532187863486-abf9d39d99f5?auto=format&fit=crop&q=80&w=1920',
+    visualPrompt: 'Macro shot of a synthetic DNA strand glowing with bioluminescence, laboratory background, clean medical aesthetic, soft focus.',
+    category: 'Biology',
+    author: 'Aethel Core',
+    publishDate: '2026-04-11',
+    cycleEndDate: '2026-04-16',
+    expiryDate: '2026-05-11'
+  },
+  {
+    id: '4',
+    status: 'archive',
+    title: {
+      tr: 'Nöral Senfoni: Beyin-Makine Arayüzlerinde Yeni Eşik',
+      en: 'Neural Symphony: A New Threshold in Brain-Machine Interfaces'
+    },
+    dataAnalysis: {
+      tr: 'Nöral Veri Analizi: Sinyal-gürültü oranı %40 iyileştirildi. Latans süresi 15ms altına düşerek doğal konuşma hızına yaklaşıldı.',
+      en: 'Neural Data Analysis: The signal-to-noise ratio was improved by 40%. Latency time dropped below 15ms, approaching natural speech speed.'
+    },
+    globalContext: {
+      tr: 'Küresel Gündem: Neuralink ve rakiplerinin son klinik test sonuçları, FDA onay sürecini hızlandırdı. "Biyonik İletişim" pazarı 2030\'a kadar 50 milyar dolara ulaşabilir.',
+      en: 'Global Agenda: The latest clinical test results from Neuralink and its competitors accelerated the FDA approval process. The "Bionic Communication" market could reach $50 billion by 2030.'
+    },
+    deepDive: {
+      tr: 'Giriş: Zihin ve makine arasındaki sınır her geçen gün biraz daha siliniyor. Beyin-makine arayüzleri (BMI), artık sadece felçli hastaların hayatını kolaylaştırmakla kalmıyor, insan iletişiminin doğasını kökten değiştiriyor. Bu teknoloji, düşüncelerimizi doğrudan dijital dünyaya aktaran bir "nöral köprü" görevi görüyor.\n\nTeknik Veri Analizi: Yapılan son geliştirmelerle, nöral sinyallerdeki gürültü oranı %40 oranında azaltıldı. Bu, kalabalık bir odada fısıltıyla konuşan birini net bir şekilde duyabilmek gibidir. Daha da önemlisi, latans (gecikme) süresi 15 milisaniyenin altına düşürüldü. Bu hız, beynimizin bir kası hareket ettirme hızıyla neredeyse aynıdır. Artık bir protez kolu veya bir bilgisayar imlecini, kendi uzvunuzmuş gibi doğal bir hızla kontrol edebiliyorsunuz.\n\nGlobal Etki: Neuralink ve rakiplerinin başarılı klinik testleri, FDA onay sürecini beklenenden çok daha fazla hızlandırdı. "Biyonik İletişim" pazarı, 2030 yılına kadar 50 milyar dolarlık devasa bir hacme ulaşabilir. Bu, sadece bir teknoloji yarışı değil, insan evriminin bir sonraki aşamasıdır.\n\nFütüristik Projeksiyon: Önümüzdeki on yıl içinde, düşünce hızında veri transferi artık bir bilim kurgu fantezisi olmaktan çıkacak. Zihinlerimizin doğrudan birbirine veya yapay zekaya bağlandığı bir dünya, mahremiyet ve kimlik kavramlarını yeniden tanımlamamıza neden olacak. Nöral senfoni, insanlığın kolektif bilincinin yeni orkestrası olacak.',
+      en: 'Introduction: The boundary between mind and machine is blurring more every day. Brain-machine interfaces (BMI) are no longer just making life easier for paralyzed patients; they are fundamentally changing the nature of human communication. This technology acts as a "neural bridge" that transfers our thoughts directly into the digital world.\n\nTechnical Data Analysis: With recent developments, the noise rate in neural signals has been reduced by 40%. This is like being able to clearly hear someone whispering in a crowded room. More importantly, the latency (delay) time has been reduced below 15 milliseconds. This speed is almost the same as the speed at which our brain moves a muscle. You can now control a prosthetic arm or a computer cursor with a natural speed, as if it were your own limb.\n\nGlobal Impact: Successful clinical tests by Neuralink and its competitors have accelerated the FDA approval process much more than expected. The "Bionic Communication" market could reach a massive volume of $50 billion by 2030. This is not just a technology race; it is the next stage of human evolution.\n\nFuturistic Projection: Within the next decade, data transfer at the speed of thought will no longer be a science fiction fantasy. A world where our minds are connected directly to each other or to artificial intelligence will cause us to redefine the concepts of privacy and identity. The neural symphony will be the new orchestra of humanity\'s collective consciousness.'
+    },
+    beyondPerspective: {
+      tr: 'Zihin ve makine arasındaki sınırın silinmesi, "insan olmanın" tanımını değiştiriyor. Düşüncelerimizin dijital dünyaya akması, kimliğimizi yeniden sorgulatacak.',
+      en: 'The blurring of the line between mind and machine is changing the definition of "being human." The flow of our thoughts into the digital world will make us question our identity.'
+    },
+    curatorSignature: {
+      tr: 'Nöral senfoni, insanlığın kolektif bilincinin yeni orkestrası olacak ve düşünce hızında iletişim devrini başlatacak.',
+      en: 'The neural symphony will be the new orchestra of humanity\'s collective consciousness and will start the era of communication at the speed of thought.'
+    },
+    technicalSpecs: [
+      { label: 'Signal-to-Noise', value: '+40%' },
+      { label: 'Latency', value: '< 15ms' },
+      { label: 'Market Cap 2030', value: '$50B' }
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=1920',
+    visualPrompt: 'Futuristic neural interface glowing with blue light, digital brain mapping, high-tech medical environment, sleek and clean design.',
+    category: 'Engineering',
+    author: 'Aethel Core',
+    publishDate: '2026-03-25',
+    cycleEndDate: '2026-03-30',
+    expiryDate: '2026-04-25',
+    archiveCardSummary: {
+      tr: 'Nöral implant teknolojisindeki son devrim, insan iletişiminin sınırlarını yeniden tanımlıyor. Düşünce hızında veri transferi artık bir bilim kurgu değil.',
+      en: 'The latest revolution in neural implant technology is redefining the boundaries of human communication. Data transfer at the speed of thought is no longer science fiction.'
+    },
+    rawData: [
+      { label: 'Signal-to-Noise', value: '40', unit: '%' },
+      { label: 'Latency', value: '15', unit: 'ms' },
+      { label: 'Electrode Density', value: '1024', unit: 'ch' }
+    ]
+  },
+  {
+    id: '5',
+    status: 'archive',
+    title: {
+      tr: 'Sürdürülebilir Füzyon: Güneşi Dünyaya Getirmek',
+      en: 'Sustainable Fusion: Bringing the Sun to Earth'
+    },
+    dataAnalysis: {
+      tr: 'Fizik Veri Paneli: Plazma sıcaklığı 150 milyon dereceye ulaştı. Q-faktörü (enerji kazancı) 1.1 seviyesini aşarak sürdürülebilir reaksiyonu kanıtladı.',
+      en: 'Physics Data Panel: Plasma temperature reached 150 million degrees. The Q-factor (energy gain) exceeded 1.1, proving a sustainable reaction.'
+    },
+    globalContext: {
+      tr: 'Enerji Politikası: G7 ülkeleri, füzyon enerjisi için ortak bir fon oluşturdu. İlk ticari prototipin 2035\'te devreye girmesi planlanıyor.',
+      en: 'Energy Policy: G7 countries have established a joint fund for fusion energy. The first commercial prototype is planned to be commissioned in 2035.'
+    },
+    deepDive: {
+      tr: 'Giriş: Yıldızların kalbindeki o devasa enerjiyi Dünya\'da kopyalamak, insanlığın enerji bağımlılığından kurtuluş manifestosudur. Nükleer füzyon, yani atomların birleşerek enerji açığa çıkarması, temiz ve sınırsız bir geleceğin anahtarıdır. Bu, adeta bir şişenin içine küçük bir güneş hapsetmek gibidir.\n\nTeknik Veri Analizi: Yapılan son deneylerde, plazma sıcaklığı 150 milyon dereceye ulaştırıldı. Bu, Güneş\'in merkezinden 10 kat daha sıcaktır. En kritik başarı ise Q-faktörünün (verilen enerjiye oranla alınan enerji) 1.1 seviyesini aşmasıdır. Yani artık sisteme verdiğimizden daha fazla enerji alabiliyoruz. Bu, bir bankaya 100 lira yatırıp, anında 110 lira geri almak gibi bir finansal mucizeye benzer. Sürdürülebilir reaksiyon artık bir hayal değil, teknik bir gerçeklik.\n\nGlobal Etki: G7 ülkeleri, füzyon enerjisi araştırmaları için devasa bir ortak fon oluşturdu. Bu teknoloji, sadece iklim krizini çözmekle kalmayacak, aynı zamanda jeopolitik dengeleri de kökten değiştirecek. Enerji artık bir çatışma nedeni değil, sınırsız bir kaynak olacak.\n\nFütüristik Projeksiyon: İlk ticari füzyon prototipinin 2035 yılında devreye girmesi planlanıyor. Bu teknoloji, medeniyetimizin enerji ölçeğini bir üst seviyeye taşıyacak. Yıldızların enerjisini kontrol etmek, insanlığın sadece Dünya\'da değil, tüm güneş sisteminde yayılmasını sağlayacak en büyük güç kaynağı olacaktır.',
+      en: 'Introduction: Replicating the massive energy at the heart of stars here on Earth is humanity\'s manifesto for liberation from energy dependence. Nuclear fusion—the process where atoms combine to release energy—is the key to a clean and limitless future. It is like trapping a small sun inside a bottle.\n\nTechnical Data Analysis: In recent experiments, the plasma temperature reached 150 million degrees. This is 10 times hotter than the center of the Sun. The most critical achievement is the Q-factor (the energy gained relative to the energy supplied) exceeding 1.1. In other words, we are now getting more energy out than we put into the system. This is like a financial miracle where you deposit 100 dollars into a bank and immediately get 110 dollars back. A sustainable reaction is no longer a dream but a technical reality.\n\nGlobal Impact: G7 countries have established a massive joint fund for fusion energy research. This technology will not only solve the climate crisis but also fundamentally change geopolitical balances. Energy will no longer be a cause for conflict but a limitless resource.\n\nFuturistic Projection: The first commercial fusion prototype is planned to be commissioned in 2035. This technology will take our civilization\'s energy scale to the next level. Controlling the energy of stars will be the greatest power source enabling humanity to spread not just on Earth, but throughout the entire solar system.'
+    },
+    beyondPerspective: {
+      tr: 'Yıldızların enerjisini kontrol etmek, insanlığın enerji bağımlılığından kurtuluş manifestosudur. Bu teknoloji, medeniyetimizi bir üst seviyeye taşıyacak.',
+      en: 'Controlling the energy of stars is humanity\'s manifesto for liberation from energy dependence. This technology will take our civilization to the next level.'
+    },
+    curatorSignature: {
+      tr: 'Füzyon enerjisi, iklim krizinin nihai çözümü ve insanlığın yıldızlararası yolculuğundaki en büyük yakıtı olacaktır.',
+      en: 'Fusion energy will be the ultimate solution to the climate crisis and the greatest fuel in humanity\'s interstellar journey.'
+    },
+    technicalSpecs: [
+      { label: 'Plasma Temp', value: '150M °C' },
+      { label: 'Q-Factor', value: '> 1.1' },
+      { label: 'Commercial Target', value: '2035' }
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1518152006812-edab29b069ac?auto=format&fit=crop&q=80&w=1920',
+    visualPrompt: 'Fusion reactor core with glowing plasma, magnetic field lines, futuristic energy plant, high-detail engineering, powerful lighting.',
+    category: 'Physics',
+    author: 'Aethel Core',
+    publishDate: '2026-03-20',
+    cycleEndDate: '2026-03-25',
+    expiryDate: '2026-04-20',
+    archiveCardSummary: {
+      tr: 'Yapay güneş projesinde elde edilen net enerji kazancı, medeniyetimizin enerji ölçeğini bir üst seviyeye taşımaya aday.',
+      en: 'The net energy gain achieved in the artificial sun project is a candidate to take our civilization\'s energy scale to the next level.'
+    },
+    rawData: [
+      { label: 'Plasma Temp', value: '150', unit: 'M°C' },
+      { label: 'Q-Factor', value: '1.1', unit: '' },
+      { label: 'Confinement Time', value: '300', unit: 's' }
+    ]
+  }
+];
+
+export const CYCLE_INFO = {
+  currentCycle: 42,
+  daysRemaining: 5,
+  totalDays: 7
+};
+
+export const CURATOR_PROFILE = {
+  name: {
+    tr: "Mehmet Halit Kaçar",
+    en: "Mehmet Halit Kacar"
+  },
+  title: {
+    tr: "Baş Editör & Yapay Zeka Küratörü",
+    en: "Chief Editor & AI Curator"
+  },
+  quote: {
+    tr: "Bilim, sadece ham verilerin toplamı değil; o verilerin arkasındaki geleceği görebilme sanatıdır. Benim görevim, NASA OSDR ve küresel araştırma ağlarından gelen karmaşık veri setlerini, Gemini’nin analitik gücüyle birleştirerek yüksek nitelikli dijital sergilere dönüştürmek. Bilginin saniyeler içinde eskitildiği bu çağda, her içeriği 5 günlük özel bir zaman döngüsüne hapsederek kullanıcıya derinlemesine bir idrak alanı sunuyorum. Estetik ve bilimin kesişim noktasında, geleceğin teknolojisini bugünden küratörlüğünü yaparak sunmaya kararlıyım.",
+    en: "Science is not merely a collection of raw data; it is the art of perceiving the future hidden within those metrics. My mission is to synthesize complex datasets from NASA OSDR and global research networks using the analytical prowess of Gemini AI, transforming them into high-caliber digital exhibitions. In an era where information is deprecated within seconds, I encapsulate every piece of content into a dedicated five-day cycle, offering the user a space for profound comprehension. At the intersection of aesthetics and science, I am committed to curating the technology of tomorrow, today."
+  },
+  details: {
+    focus: "Orbital Mechanics, AI Synthesis, and Technology Architecture.",
+    philosophy: {
+      tr: "Hız yerine Derinlik, Veri yerine Anlam (Depth over Speed, Meaning over Data)",
+      en: "Depth over Speed, Meaning over Data"
+    },
+    style: "Futuristic Technology Architect"
+  },
+  imageUrl: "https://picsum.photos/seed/curator/800/1000"
+};

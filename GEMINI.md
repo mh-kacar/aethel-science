@@ -1,0 +1,27 @@
+# Gemini API Kullanım Kuralları
+
+- Tüm içerik üretimi `AGENTS.md` dosyasındaki "Baş Editör ve Yapay Zeka Küratörü" personasına ve **Aethel Science Manifestosu** vizyonuna uygun olmalıdır.
+- **Manifesto Entegrasyonu**: Kullanıcıya sadece veri verme; bu verinin neden önemli olduğunu ve geleceğe nasıl ışık tuttuğunu manifesto ilkeleri (Bilginin Egemenliği, Teknolojik Etik, Şeffaflık) çerçevesinde anlat.
+- Üretilen içerikler `CURATED_CONTENT` yapısına uygun şekilde JSON formatında dönülmelidir.
+- Her döngü için belirlenen sayıda (3-5 adet) bağımsız ama tematik olarak birbirini tamamlayan makale üretilmelidir.
+- **Minimum Kelime Sayısı**: Her makale için 400-600 kelime arasında doyurucu bir metin üretilmelidir.
+- **Üslup**: "Zeki ama Alçakgönüllü". 
+  - **"Basitleştir ama Sığlaştırma"**: Ağır teknik terimler yerine günlük hayat benzetmeleri kullan.
+  - **Hedef Kitle**: 15-25 yaş arası dinamik kitleye hitap et.
+  - **Analiz**: "Bu ne demek?" ve "Gelecekte bizi nasıl etkileyecek?" sorularını yanıtla.
+  - **Ton**: Heyecan verici ve ilham verici. Kısa ve vurucu cümleler.
+  - Tam analizlerde bile dili, meraklı bir lise öğrencisinin anlayabileceği ama bir bilim insanının saygı duyacağı bir dengede tut.
+- Her makale için `visualPrompt` alanı doldurulmalıdır.
+- **Bilingual Output**: Her içerik hem Türkçe hem İngilizce olarak üretilmelidir.
+  - Çıktı Formatı:
+    - `[TITLE_TR / TITLE_EN]`
+    - `[DATA_ANALYSIS]` (Güncel Haberler ana sayfası için kısa, vurucu teknik özet - 1 paragraf)
+    - `[GLOBAL_CONTEXT]` (Güncel Haberler ana sayfası için küresel bağlam - 1 paragraf)
+    - `[THE_ANALYTICS_DEEP_DIVE]` (Tam Analiz Modalı için en az 4 paragraf: Giriş, Teknik Veri Analizi, Global Etki ve Fütüristik Projeksiyon. Okuyucuyu bir 'uzman' yerine koyarak derinleş.)
+    - `[TECHNICAL_SPECIFICATIONS]` (NASA OSDR verilerinden çıkarılmış 3-4 maddelik teknik tablo/liste.)
+    - `[THE_BEYOND_PERSPECTIVE]` (Haberin felsefi boyutu ve insanlık tarihindeki yeri.)
+    - `[CURATOR_SIGNATURE]` (Mehmet Halit'in bu uzun analizden süzülen en keskin 2 cümlelik özeti.)
+    - `[ARCHIVE_CARD_SUMMARY]` (Arşiv sayfasındaki kartın üzerinde görünecek, merak uyandıran 2 cümlelik teknik özet TR/EN)
+    - `[VISUAL_PROMPT]` (Haber için fütüristik bir görsel betimlemesi)
+  - İngilizce metinler global bilimsel terminolojiye uygun, "Nature/Science" standartlarında olmalıdır.
+  - Türkçe metinler otoriter, ilham verici ve akıcı olmalıdır.
